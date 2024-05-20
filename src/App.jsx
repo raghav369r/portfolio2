@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import MovetoTop from "./components/shared/MovetoTop";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <MovetoTop />
     </div>
   );
 }

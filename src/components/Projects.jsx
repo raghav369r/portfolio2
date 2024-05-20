@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { AiFillGithub, AiOutlineEye } from "react-icons/ai";
 
 const Projects = () => {
@@ -26,6 +25,13 @@ const Projects = () => {
     },
     {
       title: "Portfolio",
+      img_link: "/images/portfolio2.png",
+      gitHub_link: "https://github.com/raghav369r/portfolio2",
+      live: "https://raghav-reddy.web.app",
+      description: "This App Was Build Using React",
+    },
+    {
+      title: "Portfolio",
       img_link: "/images/portfolio.png",
       gitHub_link: "https://github.com/raghav369r/portfolio",
       live: "https://r-portfolio-r.web.app/",
@@ -40,8 +46,10 @@ const Projects = () => {
   ];
 
   return (
-    <div className="ml-2 md:ml-20 my-10">
-      <h1 className="text-5xl font-semibold text-primary my-8">Projects</h1>
+    <div id="Projects" className="ml-2 md:ml-20 my-10">
+      <h1 className="text-3xl md:text-5xl font-semibold text-primary my-8">
+        Projects
+      </h1>
       <div className="grid grid-cols-2 md:grid-cols-4">
         {projects.map((ele, ind) => (
           <Project key={ind} ele={ele} />

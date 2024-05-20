@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="mx-2 md:mx-20">
+    <div id="About" className="mx-2 md:mx-20">
       <div className="flex items-center my-20">
         <div className="size-3 rounded-full bg-primary " />
         <div className="size-3 rounded-full bg-primary mx-4" />
@@ -8,7 +8,7 @@ const About = () => {
       </div>
       <div className="flex flex-col-reverse md:flex-row">
         <div className="flex w-full md:w-1/2 flex-col gap-5 text-lg text-justify">
-          <h1 className="text-5xl text-primary font-bold">About Me</h1>
+          <h1 className="text-3xl md:text-5xl text-primary font-bold">About Me</h1>
           <p className="">
             A dedicated web developer based in Kerala, India, with a background
             in engineering and a passion for technology, embarked on an exciting

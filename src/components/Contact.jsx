@@ -4,7 +4,7 @@ import { IoLocationSharp } from "react-icons/io5";
 
 const Contact = () => {
   return (
-    <div className="ml-2 md:ml-20 my-20">
+    <div id="Contact" className="ml-2 md:ml-20 my-20">
       <h1 className="text-primary text-4xl mb-5 font-semibold">ContactMe</h1>
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/3">
