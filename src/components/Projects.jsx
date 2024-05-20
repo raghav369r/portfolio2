@@ -40,8 +40,8 @@ const Projects = () => {
   ];
 
   return (
-    <div className="ml-20 my-10">
-      <h1 className="text-5xl font-semibold text-primary">Projects</h1>
+    <div className="ml-2 md:ml-20 my-10">
+      <h1 className="text-5xl font-semibold text-primary my-8">Projects</h1>
       <div className="grid grid-cols-2 md:grid-cols-4">
         {projects.map((ele, ind) => (
           <Project key={ind} ele={ele} />

@@ -6,7 +6,7 @@ const About = () => {
         <div className="size-3 rounded-full bg-primary mx-4" />
         <hr className="w-full border-[3px] border-primary rounded-lg" />
       </div>
-      <div className="flex">
+      <div className="flex flex-col-reverse md:flex-row">
         <div className="flex w-full md:w-1/2 flex-col gap-5 text-lg text-justify">
           <h1 className="text-5xl text-primary font-bold">About Me</h1>
           <p className="">
@@ -29,7 +29,7 @@ const About = () => {
             in the dynamic field of web development.
           </p>
         </div>
-        <div className="hidden md:fex w-1/2 justify-center items-center">
+        <div className="flex w-1/2 mx-auto md:mx-0 justify-center items-center">
           <img
             alt=""
             src="/images/boy.svg"
