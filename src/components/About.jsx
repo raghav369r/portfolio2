@@ -1,13 +1,13 @@
 const About = () => {
   return (
-    <div className="mx-20">
+    <div className="mx-2 md:mx-20">
       <div className="flex items-center my-20">
         <div className="size-3 rounded-full bg-primary " />
         <div className="size-3 rounded-full bg-primary mx-4" />
         <hr className="w-full border-[3px] border-primary rounded-lg" />
       </div>
       <div className="flex">
-        <div className="flex w-1/2 flex-col gap-5 text-lg text-justify">
+        <div className="flex w-full md:w-1/2 flex-col gap-5 text-lg text-justify">
           <h1 className="text-5xl text-primary font-bold">About Me</h1>
           <p className="">
             A dedicated web developer based in Kerala, India, with a background
@@ -29,7 +29,7 @@ const About = () => {
             in the dynamic field of web development.
           </p>
         </div>
-        <div className="w-1/2 flex justify-center items-center">
+        <div className="hidden md:fex w-1/2 justify-center items-center">
           <img
             alt=""
             src="/images/boy.svg"
