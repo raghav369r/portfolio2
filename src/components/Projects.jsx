@@ -17,6 +17,13 @@ const Projects = () => {
       description: "This App Was Build Using React, Node, mongodb",
     },
     {
+      title: "Chat-Here",
+      img_link: "/images/chathere.png",
+      gitHub_link: "https://github.com/raghav369r/chatHere",
+      live: "https://chat-here.web.app/",
+      description: "This App Was Build Using React, Node, mongodb, wesockets",
+    },
+    {
       title: "Netflix-GPT",
       img_link: "/images/netflix.png",
       gitHub_link: "https://github.com/raghav369r/netflix-gpt",
@@ -46,7 +53,7 @@ const Projects = () => {
   ];
 
   return (
-    <div id="Projects" className="ml-2 md:ml-20 my-10">
+    <div id="Projects" className="container mx-auto p-2">
       <h1 className="text-3xl md:text-5xl font-semibold text-primary my-8">
         Projects
       </h1>

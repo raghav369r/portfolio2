@@ -1,17 +1,21 @@
 import { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import Button from "./shared/Button";
 import SidePanel from "./shared/SidePanel";
 import { GITHUB_LINK, LINKEDIN_LINK, RESUME_LINK } from "../config/constants";
 
-const Home = () => {  
+const Home = () => {
   const [open, SetOpen] = useState(false);
   return (
-    <div id="Home" className="relative flex flex-col md:flex-row h-auto md:h-[100vh] ">
-      <div className="h-[350px]  flex flex-col justify-between w-full md:w-1/3 bg-primary md:h-full">
-        <h1 className="text-black font-semibold text-2xl md:text-3xl md:text-5xl text-left md:text-center p-4 font-mixed">
+    <div
+      id="Home"
+      className="relative flex flex-col md:flex-row h-auto md:h-[100vh] "
+    >
+      <div className="h-[200px]  flex flex-col justify-between w-full md:w-1/3 bg-primary md:h-full">
+        <h1 className="text-black font-semibold text-2xl md:text-5xl text-left md:text-center p-4 m-5 font-mixed">
           RaGhav
         </h1>
         <div className="hidden md:flex justify-center gap-10 py-10">
@@ -43,16 +47,18 @@ const Home = () => {
             Raghav Reddy
           </h1>
           <p className="md:ml-[150px] text-neutral-400 max-w-[350px] md:max-w-1/2 text-justify">
-            If you consistently pursue the things you&apos;re passionate about,
-            whether you&apos;re within the confines of a workplace or out
-            exploring the streets, you&apos;ll find that every day feels like a
-            holiday.
+            I am Raghav, a third-year BTech student in Computer Science and
+            Engineering (CSE) with a passion for full-stack development.
+            Currently seeking full-time opportunities to apply and expand my
+            skills in the field.
           </p>
           <div className="py-4 flex justify-center gap-4">
             <a target="_blank" href={RESUME_LINK}>
               <Button name="Resume" />
             </a>
-            <Button name="Contact" />
+            <AnchorLink href="#Contact">
+              <Button name="Contact" />
+            </AnchorLink>
           </div>
         </div>
       </div>

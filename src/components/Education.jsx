@@ -8,7 +8,7 @@ const Education = () => {
     { date: "2019-2021", degree: "PUC", college: "RGUKT Srikakulam" },
   ];
   return (
-    <div id="Education" className="flex ml-2 md:ml-20">
+    <div id="Education" className="flex container mx-auto p-2">
       <div className="w-full md:w-3/5">
         <h1 className="text-3xl md:text-5xl font-bold text-primary my-10">Education</h1>
         {data.map((ele, ind) => (

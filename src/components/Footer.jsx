@@ -1,8 +1,10 @@
 const Footer = () => {
   return (
-    <div className=" text-center my-10 font-semibold">
-      made with <span className="text-red-600">❤</span> by{" "}
-      <span className="">Raghav Reddy</span>
+    <div className="container mx-auto p-2">
+      <hr className="border-[.5] border-gray-600"/>
+      <div className="mt-5 text-center font-semibold">
+        made by Raghav Reddy
+      </div>
     </div>
   );
 };

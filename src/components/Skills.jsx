@@ -13,7 +13,7 @@ const Skills = () => {
     { tech: "TailwindCSS", imgUrl: "" },
   ];
   return (
-    <div id="Skills" className="my-20 ml-2 md:ml-20">
+    <div id="Skills" className="container mx-auto p-2">
       <h1 className="text-3xl md:text-5xl text-primary font-semibold my-10">Skills</h1>
       <Marquee pauseOnHover={true} speed={100}>
         {data.map((ele, ind) => (
