@@ -15,7 +15,7 @@ const Item = ({ name, close }) => {
 };
 const SidePanel = ({ close }) => {
   return (
-    <div className="z-20 absolute h-[100vh]  bg-opacity-50 w-full backdrop-blur-lg">
+    <div className="z-20 fixed h-[100vh]  bg-opacity-50 w-full backdrop-blur-lg">
       <ul className="relative flex flex-col gap-6 bg-neutral-800 rounded-r-3xl justify-center items-center w-64  h-full">
         <IoMdClose
           className="absolute size-9 top-5 right-5 cursor-pointer hover:rotate-90 duration-200"

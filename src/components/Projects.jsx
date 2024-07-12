@@ -3,10 +3,10 @@ import { AiFillGithub, AiOutlineEye } from "react-icons/ai";
 const Projects = () => {
   const projects = [
     {
-      title: "Code Master",
-      img_link: "/images/code_master.png",
-      gitHub_link: "https://github.com/raghav369r/online-code",
-      live: "https://codee-pract.web.app/",
+      title: "Code Here",
+      img_link: "/images/codehere.png",
+      gitHub_link: "https://github.com/raghav369r/code-here",
+      live: "https://codehere-v1.web.app/",
       description: "This App Was Build Using React, Node, mongodb",
     },
     {

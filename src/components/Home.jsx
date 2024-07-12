@@ -1,11 +1,17 @@
 import { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
+import { SiLeetcode } from "react-icons/si";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import Button from "./shared/Button";
 import SidePanel from "./shared/SidePanel";
-import { GITHUB_LINK, LINKEDIN_LINK, RESUME_LINK } from "../config/constants";
+import {
+  GITHUB_LINK,
+  LEETCODE_LINK,
+  LINKEDIN_LINK,
+  RESUME_LINK,
+} from "../config/constants";
 
 const Home = () => {
   const [open, SetOpen] = useState(false);
@@ -27,6 +33,12 @@ const Home = () => {
           </a>
           <a href={LINKEDIN_LINK} target="_blank">
             <FaLinkedin
+              className="size-10 cursor-pointer hover:scale-110"
+              color="black"
+            />
+          </a>
+          <a href={LEETCODE_LINK} target="_blank">
+            <SiLeetcode
               className="size-10 cursor-pointer hover:scale-110"
               color="black"
             />
